@@ -1,2 +1,2 @@
-# october-backoffice
-Backoffice Plugin
+# Backoffice Plugin
+OctoberCMS Backoffice Plugin
