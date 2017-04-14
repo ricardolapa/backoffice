@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Menubar
+
+# Model Form Field configuration
+form: $/ricardolapa/backoffice/models/menubar/fields.yaml
+
+# Model Class name
+modelClass: RicardoLapa\Backoffice\Models\Menubar
+
+# Default redirect location
+defaultRedirect: ricardolapa/backoffice/menubar
+
+# Create page
+create:
+    title: Create Menubar
+    redirect: ricardolapa/backoffice/menubar/update/:id
+    redirectClose: ricardolapa/backoffice/menubar
+
+# Update page
+update:
+    title: Edit Menubar
+    redirect: ricardolapa/backoffice/menubar
+    redirectClose: ricardolapa/backoffice/menubar
+
+# Preview page
+preview:
+    title: Preview Menubar

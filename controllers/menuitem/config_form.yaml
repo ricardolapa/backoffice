@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Menuitem
+
+# Model Form Field configuration
+form: $/ricardolapa/backoffice/models/menuitem/fields.yaml
+
+# Model Class name
+modelClass: RicardoLapa\Backoffice\Models\Menuitem
+
+# Default redirect location
+defaultRedirect: ricardolapa/backoffice/menuitem
+
+# Create page
+create:
+    title: Create Menuitem
+    redirect: ricardolapa/backoffice/menuitem/update/:id
+    redirectClose: ricardolapa/backoffice/menuitem
+
+# Update page
+update:
+    title: Edit Menuitem
+    redirect: ricardolapa/backoffice/menuitem
+    redirectClose: ricardolapa/backoffice/menuitem
+
+# Preview page
+preview:
+    title: Preview Menuitem

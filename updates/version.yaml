@@ -1,0 +1,6 @@
+1.0.1: First version of Backoffice
+1.0.2:
+    - Table Menubar, Menuitems and relation table
+    - create_bar_item_table.php
+    - create_menuitems_table.php
+    - create_menubars_table.php

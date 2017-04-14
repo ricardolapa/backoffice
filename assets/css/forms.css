@@ -1,0 +1,16 @@
+/* Custom Form Fields */
+
+/*
+* Menubar
+*/
+.layout.padded-container {
+    padding: 0!important;
+}
+.layout-row.this-layout .primary-tabs,
+.this-buttons {
+    padding: 20px 20px 0 20px;
+}
+/* sidebar reset */
+.w-300.form-sidebar {
+    width: 240px!important;
+}

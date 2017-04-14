@@ -1,0 +1,8 @@
+menuitem:
+    label: Items
+    view:
+        list: $/ricardolapa/backoffice/models/menuitem/columns.yaml
+        toolbarButtons: add|remove
+    manage:
+        list: $/ricardolapa/backoffice/models/menuitem/columns.yaml
+        form: $/ricardolapa/backoffice/models/menuitem/fields.yaml

@@ -1,0 +1,58 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        type: partial
+        path: field_name
+
+tabs:
+    fields:
+
+        menuitem:
+            label: Menu Items
+            type: partial
+            path: field_item
+            tab: Menu Items
+
+        has_markup:
+            label: Use Default Bootstrap Markup
+            type: switch
+            tab: Layout
+
+        is_fixed:
+            label: Navbar Fixed Top
+            type: switch
+            tab: Layout
+
+        position:
+            label: Items Alignment
+            type: dropdown
+            options:
+                left: Left
+                center: Center
+                right: Right
+            span: auto
+            tab: Layout
+
+        container:
+            label: Container Type
+            type: dropdown
+            options:
+                center: Center
+                fullwidth: Full Width
+            span: auto
+            tab: Layout
+
+secondaryTabs:
+    fields:
+        logobrand:
+            label: Brand Logo
+            type: fileupload
+            mode: image
+            imageHeight: 200
+            imageWidth: 200
+        logo_url:
+            label: Logo URL
+            type: text
